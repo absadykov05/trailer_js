@@ -1,0 +1,40 @@
+.main {
+    background-color: #252324;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+
+.content {
+    width: 85%;
+    margin-left: 7.5%;
+/*    background-color: #ffee00;*/
+
+    color: white;
+    font-size: x-large;
+}
+
+.films {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-gap: 5px;
+
+    margin-top: 10px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+.films div {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #2e2e2e;
+
+    font-size: medium;
+}
+.films img {
+    width: 120%;
+    aspect-ratio: 10/9;
+    object-fit: contain;
+}
